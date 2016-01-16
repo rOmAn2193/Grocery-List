@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		E4B450801C49B7B30075E8B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B4507F1C49B7B30075E8B3 /* AppDelegate.swift */; };
-		E4B450821C49B7B30075E8B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B450811C49B7B30075E8B3 /* ViewController.swift */; };
 		E4B450851C49B7B30075E8B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4B450831C49B7B30075E8B3 /* Main.storyboard */; };
 		E4B450881C49B7B30075E8B3 /* Grocery_List.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4B450861C49B7B30075E8B3 /* Grocery_List.xcdatamodeld */; };
 		E4B4508A1C49B7B30075E8B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B450891C49B7B30075E8B3 /* Assets.xcassets */; };
 		E4B4508D1C49B7B30075E8B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4B4508B1C49B7B30075E8B3 /* LaunchScreen.storyboard */; };
 		E4B450981C49B7B30075E8B3 /* Grocery_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B450971C49B7B30075E8B3 /* Grocery_ListTests.swift */; };
 		E4B450A31C49B7B30075E8B3 /* Grocery_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B450A21C49B7B30075E8B3 /* Grocery_ListUITests.swift */; };
+		E4B450B21C49BB320075E8B3 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B450B01C49BB320075E8B3 /* Item+CoreDataProperties.swift */; };
+		E4B450B31C49BB320075E8B3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B450B11C49BB320075E8B3 /* Item.swift */; };
+		E4B450B51C49BC0C0075E8B3 /* AddEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B450B41C49BC0C0075E8B3 /* AddEditVC.swift */; };
+		E4B450B71C49BD100075E8B3 /* MainTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B450B61C49BD100075E8B3 /* MainTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,6 @@
 /* Begin PBXFileReference section */
 		E4B4507C1C49B7B30075E8B3 /* Grocery List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grocery List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B4507F1C49B7B30075E8B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E4B450811C49B7B30075E8B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E4B450841C49B7B30075E8B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4B450871C49B7B30075E8B3 /* Grocery_List.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Grocery_List.xcdatamodel; sourceTree = "<group>"; };
 		E4B450891C49B7B30075E8B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		E4B4509E1C49B7B30075E8B3 /* Grocery ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grocery ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B450A21C49B7B30075E8B3 /* Grocery_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grocery_ListUITests.swift; sourceTree = "<group>"; };
 		E4B450A41C49B7B30075E8B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4B450B01C49BB320075E8B3 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E4B450B11C49BB320075E8B3 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		E4B450B41C49BC0C0075E8B3 /* AddEditVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEditVC.swift; sourceTree = "<group>"; };
+		E4B450B61C49BD100075E8B3 /* MainTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,8 @@
 		E4B450731C49B7B30075E8B3 = {
 			isa = PBXGroup;
 			children = (
+				E4B450B01C49BB320075E8B3 /* Item+CoreDataProperties.swift */,
+				E4B450B11C49BB320075E8B3 /* Item.swift */,
 				E4B4507E1C49B7B30075E8B3 /* Grocery List */,
 				E4B450961C49B7B30075E8B3 /* Grocery ListTests */,
 				E4B450A11C49B7B30075E8B3 /* Grocery ListUITests */,
@@ -100,12 +108,13 @@
 			isa = PBXGroup;
 			children = (
 				E4B4507F1C49B7B30075E8B3 /* AppDelegate.swift */,
-				E4B450811C49B7B30075E8B3 /* ViewController.swift */,
 				E4B450831C49B7B30075E8B3 /* Main.storyboard */,
 				E4B450891C49B7B30075E8B3 /* Assets.xcassets */,
 				E4B4508B1C49B7B30075E8B3 /* LaunchScreen.storyboard */,
 				E4B4508E1C49B7B30075E8B3 /* Info.plist */,
 				E4B450861C49B7B30075E8B3 /* Grocery_List.xcdatamodeld */,
+				E4B450B41C49BC0C0075E8B3 /* AddEditVC.swift */,
+				E4B450B61C49BD100075E8B3 /* MainTVC.swift */,
 			);
 			path = "Grocery List";
 			sourceTree = "<group>";
@@ -262,8 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4B450821C49B7B30075E8B3 /* ViewController.swift in Sources */,
+				E4B450B31C49BB320075E8B3 /* Item.swift in Sources */,
 				E4B450801C49B7B30075E8B3 /* AppDelegate.swift in Sources */,
+				E4B450B51C49BC0C0075E8B3 /* AddEditVC.swift in Sources */,
+				E4B450B21C49BB320075E8B3 /* Item+CoreDataProperties.swift in Sources */,
+				E4B450B71C49BD100075E8B3 /* MainTVC.swift in Sources */,
 				E4B450881C49B7B30075E8B3 /* Grocery_List.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
